@@ -21,12 +21,12 @@ def autoplay_audio(file_path: str):
 
 def main():
     names_count = {"yes": 0, "hello": 0, "thanks": 0}
-    yolo = YOLO("C:\\Users\\abdul\\Downloads\\bestV3.pt")
+    yolo = YOLO("model\\bestV3.pt")
     st.set_page_config(layout="wide", page_title="Sign",
-                       page_icon="C:\\Users\\abdul\\Downloads\\sllogof.png")
+                       page_icon="images\\sllogof.png")
 
     # st.sidebar.title("Sign Connect")
-    logo = "C:\\Users\\abdul\\Downloads\\sllogof.png"
+    logo = "images\\sllogof.png"
     st.sidebar.image(logo)
     st.markdown("""
     <style>
